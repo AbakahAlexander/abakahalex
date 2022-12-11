@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander's website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YJ0EVELTC4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YJ0EVELTC4');
+</script>
+</head>
+<body>
+   <section class="sub-header animation">
+
+   
+    <nav>
+        
+        <a href="index.html"><img width="5%" src="logo.png" ></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()" ></i>
+    </nav>
+   <h1>About Me</h1>
+
+   </section>
+
+   <!--About Me content-->
+   <section class="about-me  animation">
+       <div class="row">
+        <div class="about-col">
+      <h1>I am a young passionate highly skilled developer</h1>
+      <p>I am an Electrical engineering student at KNUST and a full stack developer.I do both front-end and back-end development.I'm also a python developer and have done numerous projects.I'm also a machine learning enthusiast and have done projects like 
+        heart disease prediction system.I provide services in web development and web design such as web animation and responsive web pages.Still want to know more about me?,just text me on any of my social media handles.
+      </p>
+       <a href="services.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="wd2.png">
+        </div>
+       </div>
+
+   </section>
+
+
+<section class="footer animation">
+    <h4>About Me</h4>
+    <p>I am a young passionate full stack developer and upcoming engineer</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made by <i class="fa fa-heart-o"></i> Abakah Alexander</p>
+</section>
+
+
+
+
+<!-----------Javascript for toggle menu--->
+<script>
+
+var navLinks = document.getElementById("navLinks")
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

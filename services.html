@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander's website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YJ0EVELTC4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YJ0EVELTC4');
+</script>
+</head>
+<body>
+   <section class="sub-header animation">
+
+   
+    <nav>
+        
+        <a href="index.html"><img width="5%" src="logo.png" ></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()" ></i>
+    </nav>
+   <h1>My services</h1>
+   </section>
+
+   <!--Services-->
+
+   <section class="Interests animation">
+    <h1>My services</h1>
+    <p>I develop front-end and back-end web pages ,complete website,python development and some machine learning projects</p>
+
+    <div class="row">
+        <div class="Interests-col">
+            <h3>Python</h3>
+            <p>I've learnt and understood a lot of things in python and have been able to develop projects such as;food delivery system and ping pong game.
+            </p>
+        </div>
+    <div class="Interests-col">
+            <h3>Front-end development</h3>
+            <p>I've learnt and understood most of the skills needed in front-end development and developed a front-end webpage for yummyeats.Here is the link to the code:
+                <a href="https://github.com/AbakahAlexander/front-end-webpage-for-yummyeats.git">click here</a>
+            </p>
+        </div>
+     <div class="Interests-col">
+            <h3>Machine learning</h3>
+            <p>I've learnt and understood most of the basic skills needed in developing machine learning projects
+            </p>
+        </div>
+    </div>
+
+   </section>
+
+   <!--facilities-->
+   <section class="certifications animation">
+    <h1>Certifications</h1>
+    <p>I've professional certificate in the following fields</p>
+
+    <div class="row">
+    <div class="certifications-col">
+       <img src="python.jpg" >
+       <h3>Python programming,EDUCBA</h3>
+       <p>Took the online python course with EDUCBA to gain the fundamental skills that gave me the headstart in python programming.</p>
+    </div>
+    <div class="certifications-col">
+       <img src="jobberman.webp" >
+       <h3>Soft skills training,Jobberman</h3>
+       <p>Joined Jobberman's softskills training programming to gain fundamental skills needed in working with someone or a group of individuals</p>
+    </div>
+    <div class="certifications-col">
+       <img src="mo.jpg" >
+       <h3>Microsoft Office</h3>
+       <p>Took an online course with Udemy to learn some fundamental skills in microsoft office.</p>
+    </div>
+
+    </div>
+  </section>
+
+
+<section class="footer animation">
+    <h4>About me</h4>
+    <p>I am a young passionate full stck developer and upcoming engineer</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made by <i class="fa fa-heart-o"></i> Abakah Alexander</p>
+</section>
+
+
+
+
+<!-----------Javascript for toggle menu--->
+<script>
+
+var navLinks = document.getElementById("navLinks")
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

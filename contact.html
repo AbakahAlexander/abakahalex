@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander's website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YJ0EVELTC4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YJ0EVELTC4');
+</script>
+</head>
+<body>
+   <section class="sub-header animation">
+
+   
+    <nav>
+        
+        <a href="index.html"><img width="5%" src="logo.png" ></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()" ></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars"  onclick="showMenu()" ></i>
+    </nav>
+   <h1>Contact me</h1>
+
+   </section>
+
+<!--contact me-->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.8971524398476!2d-1.5586659859932668!3d6.659667095184663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb939ed678705d%3A0x9742d8229d53ee34!2sSUNSHINE%20ACADEMY%20HOSTEL!5e0!3m2!1sen!2snl!4v1656082226590!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section  class="contact-us animation">
+     <div class="row"></div>
+     <div class="contact-col">
+        <div>
+            <i class="fa fa-home"></i>
+            <span>
+               <h5>Kotei road</h5>
+               <p>KNUST,kumasi</p> 
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+               <h5>+233 559512495</h5>
+               <p>Monday to Sunday, 10AM TO 7PM</p> 
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+               <h5>alexanderabakah70@gmail.com</h5>
+               <p>Email me your query</p> 
+            </span>
+        </div>
+     </div>
+     <div class="contact-col">
+
+       <form action="formhandler.php" method="post">
+<input type="text" name="name" placeholder="Enter your name"required>
+<input type="email" name="email" placeholder="Enter your Email Address"required>
+<input type="text" name="subject" placeholder="Enter your preferred service"required>
+<textarea rows="8" name="message" placeholder="message" required></textarea>
+<button type="submit" class="hero-btn red-btn">Send Message</button>
+
+
+
+       </form>
+
+
+
+
+
+     </div>
+</section>
+
+<section class="footer animation">
+    <h4>About Me</h4>
+    <p>I am a young passionate full stack developer and upcoming engineer</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>Made by <i class="fa fa-heart-o"></i> Abakah Alexander</p>
+</section>
+
+
+
+
+<!-----------Javascript for toggle menu--->
+<script>
+
+var navLinks = document.getElementById("navLinks")
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
